@@ -22,3 +22,8 @@ Also keep in mind that the old connector means that the traktor usually uses a b
 ## Reports:
 
 * [13 Feb 2020 - First CAN sniffs](reports/13Feb2020/13Feb2020.md)
+
+## Useful Links:
+* [John Deere Service Pinout](https://obdii365.blogspot.com/2017/03/john-deere-service-edl-7215r-9-pin-cable-pinout.html)
+* [J1939 Type 2 (Green) Pinout](https://obd2allinone.com/products/j1939-t2adap.asp)
+* [CAN DBC File](https://www.csselectronics.com/screen/page/dbc-database-can-bus-conversion-wireshark-j1939-example/language/en)
