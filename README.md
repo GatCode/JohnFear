@@ -20,3 +20,5 @@ Usually we only need to connect the CAN-L and CAN-H (C and D) to sniff the bus.
 Also keep in mind that the old connector means that the traktor usually uses a baudrate of 250k but in the case of an already installed GPS, the baudrate could also be 500k. If this baudrate is missmatched, you will get a bus violation error message in rapid paste!
 
 ## Reports:
+
+* [13 Feb 2020 - First CAN sniffs](../../captures/13Feb2020.pcapng)
