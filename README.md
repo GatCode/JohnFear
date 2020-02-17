@@ -21,4 +21,4 @@ Also keep in mind that the old connector means that the traktor usually uses a b
 
 ## Reports:
 
-* [13 Feb 2020 - First CAN sniffs](../../captures/13Feb2020.pcapng)
+* [13 Feb 2020 - First CAN sniffs](reports/13Feb2020/13Feb2020.md)
