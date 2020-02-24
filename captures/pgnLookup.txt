@@ -1,0 +1,218 @@
+### sniffed pgn: 45312 ###
+## Result:
+| 45312  | Proprietarily Configurable Message #1                                                  |           | 
+### sniffed pgn: 53248 ###
+## Result:
+| 53248  | Cab Illumination Message                                                               | Included  | 
+### sniffed pgn: 57344 ###
+## Result:
+| 57344  | Cab Message 1                                                                          | Included  | 
+### sniffed pgn: 58880 ###
+## Result:
+| 58880  | Virtual Terminal-to-Node                                                               |           | 
+### sniffed pgn: 59136 ###
+## Result:
+| 59136  | Node-to-Virtual Terminal                                                               |           | 
+### sniffed pgn: 59392 ###
+## Result:
+| 59392  | Acknowledgment Message                                                                 |           | 
+### sniffed pgn: 59904 ###
+## Result:
+| 59904  | Request                                                                                |           | 
+### sniffed pgn: 60160 ###
+## Result:
+| 60160  | Transport Protocol - Data Transfer                                                     |           | 
+### sniffed pgn: 60416 ###
+## Result:
+| 60416  | Transport Protocol - Connection Mgmt                                                   |           | 
+### sniffed pgn: 60928 ###
+## Result:
+| 60928  | Address Claimed                                                                        |           | 
+### sniffed pgn: 61184 ###
+## Result:
+| 61184  | Proprietary A                                                                          |           | 
+### sniffed pgn: 61441 ###
+## Result:
+| 61441  | Electronic Brake Controller 1                                                          | Included  | 
+### sniffed pgn: 61443 ###
+## Result:
+| 61443  | Electronic Engine Controller 2                                                         | Included  | 
+### sniffed pgn: 61444 ###
+## Result:
+| 61444  | Electronic Engine Controller 1                                                         | Included  | 
+### sniffed pgn: 61446 ###
+## Result:
+| 61446  | Electronic Axle Controller 1                                                           | Included  | 
+### sniffed pgn: 61474 ###
+## Result:
+| 61474  | Machine Selected Speed                                                                 |           | 
+### sniffed pgn: 64892 ###
+## Result:
+| 64892  | Diesel Particulate Filter Control 1                                                    | Included  | 
+### sniffed pgn: 64925 ###
+## Result:
+| 64925  | Sensor Electrical Power #1                                                             | Included  | 
+### sniffed pgn: 64947 ###
+## Result:
+| 64947  | Aftertreatment 1 Outlet Gas 2                                                          | Included  | 
+### sniffed pgn: 64972 ###
+## Result:
+| 64972  | Operators External Light Controls Message                                              | Included  | 
+### sniffed pgn: 64973 ###
+## Result:
+| 64973  | Operator Wiper and Washer Controls Message                                             | Included  | 
+### sniffed pgn: 64991 ###
+## Result:
+| 64991  | Front Wheel Drive Status                                                               | Included  | 
+### sniffed pgn: 65034 ###
+## Result:
+| 65034  | Implement Remote Control Command Tractor Response                                      |           | 
+### sniffed pgn: 65037 ###
+## Result:
+| 65037  | Working Set Master                                                                     |           | 
+### sniffed pgn: 65039 ###
+## Result:
+| 65039  | Language Command                                                                       |           | 
+### sniffed pgn: 65041 ###
+## Result:
+| 65041  | Auxiliary Valve Number 1 Estimated Flow                                                |           | 
+### sniffed pgn: 65042 ###
+## Result:
+| 65042  | Auxiliary Valve Number 2 Estimated Flow                                                |           | 
+### sniffed pgn: 65043 ###
+## Result:
+| 65043  | Auxiliary Valve Number 3 Estimated Flow                                                |           | 
+### sniffed pgn: 65044 ###
+## Result:
+| 65044  | Auxiliary Valve Number 4 Estimated Flow                                                |           | 
+### sniffed pgn: 65088 ###
+## Result:
+| 64974  | Working Set Member Message (Obsolete - See PGN 65088)                                  |           | 
+| 65088  | Lighting Data                                                                          | Included  | 
+### sniffed pgn: 65089 ###
+## Result:
+| 64975  | Working Set Master Message  (Obsolete - See PGN 65089)                                 |           | 
+| 65089  | Lighting Command                                                                       | Included  | 
+### sniffed pgn: 65091 ###
+## Result:
+| 65091  | Primary or Rear Power Take off Output Shaft                                            |           | 
+### sniffed pgn: 65093 ###
+## Result:
+| 65093  | Primary or Rear Hitch Status                                                           |           | 
+### sniffed pgn: 65095 ###
+## Result:
+| 65095  | Maintain Power                                                                         |           | 
+### sniffed pgn: 65096 ###
+## Result:
+| 65096  | Wheel-based Speed and Distance                                                         |           | 
+### sniffed pgn: 65097 ###
+## Result:
+| 65097  | Ground-based Speed and Distance                                                        |           | 
+### sniffed pgn: 65128 ###
+## Result:
+| 65128  | Vehicle Fluids                                                                         | Included  | 
+### sniffed pgn: 65129 ###
+## Result:
+| 65129  | Engine Temperature 3                                                                   | Included  | 
+### sniffed pgn: 65134 ###
+## Result:
+| 65134  | High Resolution Wheel Speed                                                            | Included  | 
+### sniffed pgn: 65165 ###
+## Result:
+| 65165  | Vehicle Electrical Power 2                                                             | Included  | 
+### sniffed pgn: 65198 ###
+## Result:
+| 65198  | Air Supply Pressure                                                                    | Included  | 
+### sniffed pgn: 65226 ###
+## Result:
+| 65226  | Active Diagnostic Trouble Codes                                                        |           | 
+### sniffed pgn: 65237 ###
+## Result:
+| 65237  | Alternator Information                                                                 | Included  | 
+### sniffed pgn: 65247 ###
+## Result:
+| 65247  | Electronic Engine Controller 3                                                         | Included  | 
+### sniffed pgn: 65253 ###
+## Result:
+| 65253  | Engine Hours, Revolutions                                                              | Included  | 
+### sniffed pgn: 65255 ###
+## Result:
+| 65255  | Vehicle Hours                                                                          | Included  | 
+### sniffed pgn: 65257 ###
+## Result:
+| 65257  | Fuel Consumption (Liquid) 1                                                            | Included  | 
+### sniffed pgn: 65262 ###
+## Result:
+| 65262  | Engine Temperature 1                                                                   | Included  | 
+### sniffed pgn: 65263 ###
+## Result:
+| 65263  | Engine Fluid Level/Pressure 1                                                          | Included  | 
+### sniffed pgn: 65265 ###
+## Result:
+| 65265  | Cruise Control/Vehicle Speed 1                                                         | Included  | 
+### sniffed pgn: 65266 ###
+## Result:
+| 65266  | Fuel Economy (Liquid)                                                                  | Included  | 
+### sniffed pgn: 65269 ###
+## Result:
+| 65269  | Ambient Conditions                                                                     | Included  | 
+### sniffed pgn: 65270 ###
+## Result:
+| 65270  | Intake/Exhaust Conditions 1                                                            | Included  | 
+### sniffed pgn: 65271 ###
+## Result:
+| 65271  | Vehicle Electrical Power 1                                                             | Included  | 
+### sniffed pgn: 65272 ###
+## Result:
+| 65272  | Transmission Fluids 1                                                                  | Included  | 
+### sniffed pgn: 65276 ###
+## Result:
+| 65276  | Dash Display 1                                                                         | Included  | 
+### sniffed pgn: 65283 ###
+## Result:
+| 65283  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65289 ###
+## Result:
+| 65289  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65371 ###
+## Result:
+| 65371  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65372 ###
+## Result:
+| 65372  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65381 ###
+## Result:
+| 65381  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65383 ###
+## Result:
+| 65383  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65384 ###
+## Result:
+| 65384  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65385 ###
+## Result:
+| 65385  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65386 ###
+## Result:
+| 65386  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65523 ###
+## Result:
+| 65523  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65528 ###
+## Result:
+| 65528  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65530 ###
+## Result:
+| 65530  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65531 ###
+## Result:
+| 65531  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65534 ###
+## Result:
+| 65534  | Proprietary B                                                                          |           | 
+### sniffed pgn: 65535 ###
+## Result:
+| 65535  | Proprietary B (last entry)                                                             |           | 
+### sniffed pgn: 126720 ###
+## Result:
+| 126720 | Proprietary A2                                                                         |           | 
