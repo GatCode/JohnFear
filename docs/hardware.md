@@ -40,7 +40,7 @@ An good explanation can be fond [here][6]. Just match the socket from your tacto
 Please again reference to this page [here][6].
 There is no need to connect the GND pin, please just leaf it open. Necessary is just `CANH` and `CANL`. If you connect them wrongly, nothing should happen or at least you will not sniff any usefull data.
 
-<img width="400" src="assets/j1939.jpg">  
+<img width="400" src="../assets/j1939.jpg">  
 
 (image above copied from: [https://guatemaladigital.com/](https://guatemaladigital.com/Automotriz+-+sistema+el%E9ctrico/Producto.aspx?CodigoP=B07DC6C72B))
 
