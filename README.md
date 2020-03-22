@@ -21,6 +21,7 @@ The takeaway should be that [can bus][2] is used as physical layer for transport
 
 ## J1939
 Yey you have finished the [can bus][2] section, so we assume yuo are an expert now. However let's check out what [J1939][9] is use for. In a nutshell it defined the messages tracture and is published by [SAE][10] (Society of Automotive Entineers). The entire standard is published within multiple papers, at first we will only need J1939/71, which describs the PGN (Parameter Group Number) and SPNs (Suspect Parameter Number). We really recommend to go throw this [guide](https://www.csselectronics.com/screen/page/simple-intro-j1939-explained).
+Quite a good explanation can be found [here][11] as well.
 
 ## Related work
 There is already some progress out there, so we have not started entirly from scratch. Please checkout [Tractor Hacking][5] from the California Polytechnic State University which is also an open source project. You can find some sniffed data in there github repository as well. In addition, they have written already and client in python refered to [PolyCan][6]. In your opinion we do not see any need to use this tool, because we achieved the same with Wireshark.
@@ -58,3 +59,4 @@ Thanks goes to these wonderful people:
 [8]: (https://www.csselectronics.com/screen/overview)
 [9]: (https://en.wikipedia.org/wiki/SAE_J1939)
 [10]: (https://www.sae.org/)
+[11]: (https://obd2allinone.com/products/j1939-t2adap.asp)
