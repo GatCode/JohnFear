@@ -34,7 +34,7 @@ The final goal of this project is not really defined. We will try to keep moving
 ###  First goal
 At first we will focus on sniffing only. The goal is to sniff and decode the [J1939][9] messages in real time with wireshark. This is basically already available by [CSS electronics][8], but let's get it done open source.
 
-Please checkout your tutorial how to [sniff can bus data](./docs/ho)
+Please checkout your tutorial how to [sniff can bus data](./docs/howToCapture.md)
 
 ## Contributors ✨
 
