@@ -4,43 +4,37 @@
 </p>
 <br><br>
 
-## About
-This project is an attempt to **reverse engineer** the CAN bus system of a **John Deere 6125R** (later on all newer John Deere models) and to inject messages to gain control of the whole Traktor.
+## General
+JohnFear is an open source project with the goal to reverse engineer [John Deere][1] tractors. At first we will more or less only focus exploiting the [can bis][2]. [John Deere][1] follows the industry standards and uses the [J1939][9] protocol for the control unit intercommunication. Because the [can bus][2] traffic is not encrypted, we see here your best change for extracting and manipulating the tractor.
 
 Please keep in mind that this project is a **work in progress** and the advancements are limited by our time and money.
 
-## CAN basics:
-To fully understand our work, we first will provide you a small introduction on the CAN system itself.
+## CAN basics
+Sorry guess but we will not explain the [can bus][2] in detail here. The most important attitue is mainly also the reason why we have started this project. [Can bus][2] broadcasts all the messages, which means that we can sniff all the data and anlysis it offline.
 
-In general there are two different kinds of SAE J1939 connectors inside a John Deere. There are the old ones (black) and the newer ones (green with one pin smaller). No matter what bus sniffing device you use, these connectors should not limit you in any way!
+We suggest to go throw some tutorials first before you continue reading. Basically you can just google for can bus and you will get a bunch of information to go throw.
+* [Wikipedia][2]
+* [Tractor Hacking][5]
+* [CSS electronics][8]
 
-<img width="400" src="assets/j1939.jpg">  
+The takeaway should be that [can bus][2] is used as physical layer for transporting [J1939][9] messages.
 
-(image above copied from: [https://guatemaladigital.com/](https://guatemaladigital.com/Automotriz+-+sistema+el%E9ctrico/Producto.aspx?CodigoP=B07DC6C72B))
+## J1939
+Yey you have finished the [can bus][2] section, so we assume yuo are an expert now. However let's check out what [J1939][9] is use for. In a nutshell it defined the messages tracture and is published by [SAE][10] (Society of Automotive Entineers). The entire standard is published within multiple papers, at first we will only need J1939/71, which describs the PGN (Parameter Group Number) and SPNs (Suspect Parameter Number). We really recommend to go throw this [guide](https://www.csselectronics.com/screen/page/simple-intro-j1939-explained).
+Quite a good explanation can be found [here][11] as well.
 
+## Related work
+There is already some progress out there, so we have not started entirly from scratch. Please checkout [Tractor Hacking][5] from the California Polytechnic State University which is also an open source project. You can find some sniffed data in there github repository as well. In addition, they have written already and client in python refered to [PolyCan][6]. In your opinion we do not see any need to use this tool, because we achieved the same with Wireshark.
 
-Since you never can be sure if the colors of the cables are right, just use a Multimeter to meassure which colors are connected to the CAN-L and CAN-H pins.
+We recommand also to have a look at [CSS electronics][8]. Unfortunatly they only offer commercial project, but you can find really fantastic explainations on there side.
 
-(this image contains the pinout in the direction of the image of the plug in the top - from behind!!!)  
+## Goals
+The final goal of this project is not really defined. We will try to keep moving on as far as possible.
 
-<img width="400" src="assets/canPinout.jpg">  
+###  First goal
+At first we will focus on sniffing only. The goal is to sniff and decode the [J1939][9] messages in real time with wireshark. This is basically already available by [CSS electronics][8], but let's get it done open source.
 
-(image above copied from: [https://tractorhacking.github.io/usage/](https://tractorhacking.github.io/usage/))
-
-Usually we only need to connect the CAN-L and CAN-H (C and D) to sniff the bus - a ground connection is not needed.
-
-Also keep in mind that the old connector means that the traktor usually uses a baudrate of 250k but in the case of an already installed GPS, the baudrate could also be 500k. If this baudrate is missmatched, you will get a bus violation error message in rapid paste!
-
-## Hardware
-We decided to use the [CANable](https://canable.io) device as our sniffing tool since it is open-souce and you can decide which firmware you are using.
-
-Regarding the firmware, we opted for the [candleLight](https://github.com/normaldotcom/candleLight_fw) firmware which is also recommended from the manufacturer.
-
-This in combination with a Linux Laptop yielded to our bus sniffs!
-
-## Reports:
-
-* [13 Feb 2020 - First CAN sniffs](reports/13Feb2020/13Feb2020.md)
+Please checkout your tutorial how to [sniff can bus data](./docs/howToCapture.md)
 
 ## Contributors ✨
 
@@ -55,11 +49,14 @@ Thanks goes to these wonderful people:
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-## Useful Links:
-* [John Deere Service Pinout](https://obdii365.blogspot.com/2017/03/john-deere-service-edl-7215r-9-pin-cable-pinout.html)
-* [J1939 Type 2 (Green) Pinout](https://obd2allinone.com/products/j1939-t2adap.asp)
-* [CAN DBC File](https://www.csselectronics.com/screen/page/dbc-database-can-bus-conversion-wireshark-j1939-example/language/en)
+[1]: (https://www.deere.com/en/index.html)
+[2]: (https://en.wikipedia.org/wiki/CAN_bus)
+[3]: (https://github.com/GatCode)
+[4]: (https://github.com/whati001)
+[5]: (https://tractorhacking.github.io/)
+[6]: (https://github.com/TractorHacking/PolyCAN)
+[7]: (https://www.wireshark.org/)
+[8]: (https://www.csselectronics.com/screen/overview)
+[9]: (https://en.wikipedia.org/wiki/SAE_J1939)
+[10]: (https://www.sae.org/)
+[11]: (https://obd2allinone.com/products/j1939-t2adap.asp)
