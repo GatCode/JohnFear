@@ -35,10 +35,9 @@ Start [wireshark][2] and start a new capture for the can device, in your case `c
 ## Start Engine
 Fire up the tractor. It is enought to start board computer without engine first, you should already receive can message yet. If only bus valuation messages pop up, you may have used the wrong baudrate.
 
-## Analyse data
-After sniffing, we need to analyse the data. This is now the current state from this project. [Wireshare][2] supports us here by decoding the can traffic into [j1939][3] messages. This allows us to filter for PGN numbers and etc. But to receive an human readable string, we need to workout a mapping (DBC file) and apply it to the captured data.
-
+## Trace data
+After starting the tractor, wireshark should capture raw [CAN bus][3] data. Please see an example screenprint below. ![](../assets/wsharkCaptureCan.png)
 
 [1]: (https://canable.io/)
 [2]: (https://www.wireshark.org/)
-[3]: (https://en.wikipedia.org/wiki/SAE_J1939)
+[3]: (https://en.wikipedia.org/wiki/CAN_bus)
