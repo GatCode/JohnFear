@@ -29,7 +29,8 @@ Please consider, if you decode the data as [j1939][3] and save it, [wireshare][2
 ```
 
 ## Python
-  pass
+For POC reason, we will first try to analyse the data with python. Further this will be the approch for continuously data steaming. Please have a look at your jupyter workbook inside pyJohnFear directory. You can find [here](https://jupyter.org/install) the offical installation tutorial.
+
 
 [1]: (https://www.wireshark.org/docs/man-pages/tshark.html)
 [2]: (https://www.wireshark.org/)
